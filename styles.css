@@ -1,0 +1,359 @@
+body {
+    display: block;
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation-bar {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1110px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navigation-bar-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #F5F6F7;
+    border-radius: 40px;
+}
+.navigation-bar-menu:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+.slider {
+    background: no-repeat url("/images/Bitmap.svg");
+    height: 810px;
+    color: white;
+}
+.slider-text {
+    padding: 180px 0 0 160px;
+    max-width: 616px;
+}
+.slider-text span{
+    display: block;
+}
+.slider-text span:nth-child(1) {
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.slider-text span:nth-child(2) {
+    font-weight: 700;
+    font-size: 60px;
+    padding-bottom: 20px;
+
+}
+.slider-text span:nth-child(3) {
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+.slider-text span:nth-child(4) {
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFD723;
+    text-decoration: underline;
+}
+.clients-block {
+    display: flex;
+    justify-content: space-around;
+    width: 1280px;
+    margin-left: auto;
+    min-height: 225px;
+    color: white;
+    background-color: #FFF;
+    box-shadow: 50px 50px 100px 0px #00000025;
+    margin-top: -125px;
+}
+.clients-block img:nth-child(5) {
+    padding-right: 100px;
+}
+.services-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 160px 150px 160px;
+}
+.services-block-about-us {
+    margin-top: 120px;
+    width: 475px;
+}
+.services-block-about-us span {
+    display: block;
+}
+.technology {
+    display: inline !important;
+    color: #4D533C;
+    width: 475px;
+    font-size: 36px !important;
+    font-weight: 700 !important;
+    background: #FFD7231A 10%;
+    margin-bottom: 0 !important;
+}
+.services-block-about-us span:nth-child(1) {
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.services-block-about-us span:nth-child(2) {
+    color: #4D533C;
+    width: 475px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.services-block-about-us span:nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;   
+    color: rgba(33, 56, 66, 0.6);
+    margin-bottom: 40px;
+
+}
+.services-block-about-us span:nth-child(4) {
+    color: rgba(212, 214, 212, 1);
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 400;
+}
+.services-block-founder-text {
+    /* background-color: #FFF; */
+    padding-top: 120px;
+    width: 470px;
+    box-shadow: 0px 100px 100px 0px #00000025;
+}
+.services-block-founder-text-text {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    color: #4D533C;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+}
+.founder-img-and-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.founder-img-and-text img {
+    border-radius: 90px;
+    margin-right: 30px;
+    box-shadow: 20px 25px 43px 0px #0000002E;
+}
+.founder-img-and-text div span {
+    display: block;
+}
+.founder-img-and-text div span:nth-child(1){
+    color: #4D533C;
+    font-weight: 700;
+    font-size: 22px;
+}
+.founder-img-and-text div span:nth-child(2){
+    font-weight: 400;
+    font-size: 14px;
+}
+.services-project-divider {
+    width: 1110px;
+    margin: 0 auto;
+    border: 1px solid rgba(33, 56, 66, 0.1);;
+}
+.awesome-projects-block {
+    display: flex;
+    margin-left: 160px;
+    margin-top: 150px;
+    margin-bottom: 110px ;
+}
+.awesome-projects-block span {
+    display: block;
+}
+.awesome-projects-block span:nth-child(1) {
+    width: 325px;
+    font-weight: 700;
+    font-size: 36px;
+    color: rgba(77, 83, 60, 1);
+    margin-right: 130px;
+}
+.awesome-projects-block span:nth-child(2) {
+    width: 518px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(33, 56, 66, 0.6);
+    padding: 12px 0;
+}
+.wall-balenciaga-block {
+    display: flex;
+    margin-bottom: 165px;
+}
+.block-background {
+    position: relative;
+    width: 735px;
+    min-height: 550px;
+    margin-left: 160px;
+}
+.wall-balenciaga-bg {
+    background: no-repeat url("/images/the-wall-new.svg");
+}
+.feature-wall-balenciaga {
+    position: absolute;
+    bottom: -65px;
+    right: -40px;
+    width: 453px;
+    box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.15);
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 30px;
+}
+.feature-wall-balenciaga:nth-child(1){
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(77, 83, 60, 1);
+}
+.feature-wall-balenciaga-person {
+    display: flex;
+    margin-top: 24px;
+}
+.feature-wall-balenciaga-person div {
+    display: inline-block;
+    margin-left: 15px;
+}
+.feature-wall-balenciaga-person div span {
+    font-style: normal !important;
+    display: block;
+}
+.feature-wall-balenciaga-person div span:nth-child(1) {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(77, 83, 60, 1);
+}
+.feature-wall-balenciaga-person div span:nth-child(2) {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(21, 41, 52, 1);
+}
+.wall-balenciaga-text {
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 475px;
+}
+.wall-balenciaga-text span{
+    display: block;
+}
+.wall-balenciaga-text span:nth-child(1) {
+    font-size: 36px;
+    font-weight: 700;
+    color: rgba(77, 83, 60, 1);
+    margin-bottom: 25px;
+}
+.wall-balenciaga-text span:nth-child(2) {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(33, 56, 66, 0.6);
+    margin-bottom: 25px;
+}
+.wall-balenciaga-text span:nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(33, 56, 66, 0.6);
+    margin-bottom: 90px;
+}
+.wall-balenciaga-text span:nth-child(4) {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(212, 214, 212, 1);
+    text-decoration: underline;
+}
+.future-3d-model-block {
+    display: flex;
+    margin-left: 160px;
+    margin-bottom: 135px;
+}
+.future-3d-model-bg {
+    background: no-repeat url("/images/future-3d-model.svg");
+}
+.feature-future-3d-model {
+    position: absolute;
+    bottom: -40px;
+    left: -65px;
+    width: 453px;
+    box-shadow: 50px 50px 100px 0px rgba(0, 0, 0, 0.15);
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 30px;
+}
+.future-3d-model-text {
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 475px;
+}
+.future-3d-model-text span{
+    display: block;
+}
+.future-3d-model-text span:nth-child(1) {
+    font-size: 36px;
+    font-weight: 700;
+    color: rgba(77, 83, 60, 1);
+    margin-bottom: 25px;
+}
+.future-3d-model-text span:nth-child(2) {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(33, 56, 66, 0.6);
+    margin-bottom: 25px;
+}
+.future-3d-model-text span:nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(33, 56, 66, 0.6);
+    margin-bottom: 90px;
+}
+.future-3d-model-text span:nth-child(4) {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(212, 214, 212, 1);
+    text-decoration: underline;
+}
+.feature-future-3d-model-person {
+    display: flex;
+    margin-top: 24px;
+}
+.feature-future-3d-model-person div {
+    display: inline-block;
+    margin-left: 15px;
+}
+.feature-future-3d-model-person div span {
+    font-style: normal !important;
+    display: block;
+}
+.feature-future-3d-model-person div span:nth-child(1) {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(77, 83, 60, 1);
+}
+.feature-future-3d-model-person div span:nth-child(2) {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(21, 41, 52, 1);
+}
+.online-booking-future-bg {
+    background: no-repeat url("/images/online-booking-future.svg");
+}
+.deation-evaluation {
+    margin-bottom: 150px;
+}
+.deation-evaluation-block {
+    margin-left: 160px;
+}
